@@ -1,6 +1,12 @@
 {
+	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/TEST.casp",
 	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
+	"EditorCharacterOrder": [
+		100,
+		200,
+		300
+	],
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
 	"Skeletons": "res://fighters/Skeleton.casp"
 }

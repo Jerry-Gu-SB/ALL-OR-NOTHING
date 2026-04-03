@@ -1,0 +1,77 @@
+:Character:
+## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
+## You can also add another file to this with the Skeleton: property.
+Skeleton: res://castagne/examples/fighters/baston/Baston-Model.casp
+
+# All parameters we set here are of the form [Parameter Name]: [Value].
+# Here, we add a name to display in the game itself.
+Name: Baston Jr.
+
+# And here, we add a name that will be shown in the editor!
+EditorName: My First Character
+:Specs-PhysicsMovement:
+
+:Specs-Graphics:
+# Automatic creation
+:Specs-Anims:
+
+:Variables-Internals-Physics:
+#Overriden from Variables-Internals-Physics
+# Let's make him FAST!
+def MOVE_Walk_SpeedF int() = 1000
+:Variables-Internals-Graphics:
+#Overriden from Variables-Internals-Graphics
+:Variables:
+## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
+:2L:
+def Properties_Overhead bool() = 0
+def Hitbox_Back int() = 0
+def Properties_Low bool() = 0
+def Attack_Damage int() = 1000
+def Animation_Name str() = N-CrouchJab
+
+def Attack_Startup int() = 7
+def Attack_ActiveFrames int() = 3
+def Attack_Recovery int() = 20
+def Attack_Hitstun int() = 35
+def Attack_FrameAdvantageBlock int() = 2
+def Hitbox_Front int() = 12000
+def Hitbox_Bottom int() = 0
+def Hitbox_Top int() = 12000
+
+# Template for attacks you can customize through custom editors.
+# /!\ This is still limited! Some improvements need to be made to achieve it fully, so you need a bit of manual editing still at times.
+AttackRegister(Medium)
+
+Call(SimpleAttack-Standard)
+:5L:
+AttackRegister(Light, 5L)
+
+AttackDamage(1000)
+AttackDuration(30)
+
+Anim(N-BackhandJab)
+
+F6-8:
+    Hitbox(0, 10000, 5000, 15000)
+endif
+:j5H:
+## Downwards bat swing with a sweetspot at the end of the bat.
+## TODO Add the hitboxes
+
+AttackRegister(AirHeavy)
+AttackDamage(1200)
+AttackDuration(50)
+Anim(N-AirSwing)
+AttackFlag(Overhead)
+
+F9-12:
+    # Sourspot
+    Hitbox(0, 7000, -2000, 10000)
+
+    # Sweetspot
+    AttackDamage(5000)
+    AttackKnockdown()
+    AttackFlag(ForceLanding)
+    Hitbox(5000, 12000, -1000, 10000)
+endif
