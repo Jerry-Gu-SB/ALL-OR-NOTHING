@@ -1,6 +1,13 @@
 {
-	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
+	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/cat-girl-grappler/cat-girl-grappler.casp",
+	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC2DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
+	"EditorCharacterOrder": [
+		100,
+		200,
+		300
+	],
+	"GameTitle": "ALL-OR-NOTHING",
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
 	"Skeletons": "res://fighters/Skeleton.casp"
 }

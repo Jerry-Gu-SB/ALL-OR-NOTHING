@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/standing.png-4ea8750d8d0b297ca7454e373720a830.stex"
+path="res://.import/ANIM_Movement_Basic_Stand.png-c357ca2914456ce3e00583c5b843f44f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fighters/cat-girl-grappler/Animations/standing.png"
-dest_files=[ "res://.import/standing.png-4ea8750d8d0b297ca7454e373720a830.stex" ]
+source_file="res://fighters/cat-girl-grappler/Animations/ANIM_Movement_Basic_Stand.png"
+dest_files=[ "res://.import/ANIM_Movement_Basic_Stand.png-c357ca2914456ce3e00583c5b843f44f.stex" ]
 
 [params]
 

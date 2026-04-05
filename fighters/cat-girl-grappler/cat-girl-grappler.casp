@@ -1,0 +1,17 @@
+:Character:
+Name: CAT-GRAPPLER
+
+# And here, we add a name that will be shown in the editor!
+EditorName: cat-girl-grappler
+:Specs-Graphics:
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand int() = 0
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginX int() = 0
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginY int() = 0
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___PaletteMode int() = 0
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___Path str() = res://fighters/cat-girl-grappler/Animations/ANIM_Movement_Basic_Stand.png
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___SpritesX int() = 2
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___SpritesY int() = 1
+def GRAPHICS_SpritePalette str() = res://global assets/mainpal.png
+:Variables:
+## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
