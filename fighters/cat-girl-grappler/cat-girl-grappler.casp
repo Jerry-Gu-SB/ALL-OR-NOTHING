@@ -1,17 +1,33 @@
 :Character:
-Name: CAT-GRAPPLER
+Name: cat-girl-grappler
 
 # And here, we add a name that will be shown in the editor!
 EditorName: cat-girl-grappler
 :Specs-Graphics:
+def GRAPHICS_PauseAttackerVFXOnHitstop bool() = 0
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand int() = 0
-def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginX int() = 0
-def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginY int() = 0
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginX int() = 250
+def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___OriginY int() = 40
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___PaletteMode int() = 0
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___Path str() = res://fighters/cat-girl-grappler/Animations/ANIM_Movement_Basic_Stand.png
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___PixelSize int() = 100000
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___SpritesX int() = 2
 def GRAPHICS_SPRITESHEET_ANIM_Movement_Basic_Stand___SpritesY int() = 1
+def GRAPHICS_Scale int() = 800
 def GRAPHICS_SpritePalette str() = res://global assets/mainpal.png
+def GRAPHICS_UseModel bool() = 0
+def GRAPHICS_UseSprites bool() = 1
 :Variables:
 ## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
+:AnimStand:
+#Overriden from AnimStand
+# CallParent() allows you to extend the overriden state by adding your behavior.
+# Remove it to replace the default behavior with yours instead
+# CallParent()
+
+
+S30%:
+	Sprite(ANIM_Movement_Basic_Stand, 0)
+S30
+	Sprite(ANIM_Movement_Basic_Stand, 1)
+endif
