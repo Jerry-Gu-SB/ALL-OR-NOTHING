@@ -1,6 +1,6 @@
 {
 	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/Clawdia/Clawdida.casp, res://fighters/Clawdia/Clawdida.casp",
-	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
+	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC2DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
 	"EditorCharacterOrder": [
 		100,
