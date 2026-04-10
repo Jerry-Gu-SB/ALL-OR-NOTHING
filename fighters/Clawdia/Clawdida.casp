@@ -1,0 +1,38 @@
+:Character:
+## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
+## You can also add another file to this with the Skeleton: property.
+Skeleton: res://castagne/examples/fighters/baston/Baston-Model.casp
+:Specs-Graphics:
+def GRAPHICS_AutomaticZOrder bool() = 1
+def GRAPHICS_SPRITESHEET_Stand int() = 0
+def GRAPHICS_SPRITESHEET_Stand___OriginX int() = 235
+def GRAPHICS_SPRITESHEET_Stand___OriginY int() = 39
+def GRAPHICS_SPRITESHEET_Stand___PaletteMode int() = 1
+def GRAPHICS_SPRITESHEET_Stand___Path str() = res://fighters/Clawdia/mika est.png
+def GRAPHICS_SPRITESHEET_Stand___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_Stand___SpritesX int() = 2
+def GRAPHICS_SPRITESHEET_Stand___SpritesY int() = 1
+def GRAPHICS_SPRITE_PALETTE_0 int() = 0
+def GRAPHICS_SPRITE_PALETTE_0___DisplayName str() = Blue
+def GRAPHICS_SPRITE_PALETTE_0___Extra int() = 0
+def GRAPHICS_SPRITE_PALETTE_0___ModelPath str() = res://castagne/assets/fighters/baston/model/BastonModel-Pal02.tscn
+def GRAPHICS_SPRITE_PALETTE_0___SpritePalettePath str() = res://castagne/assets/helpers/palette/Palettual01 - Copy.png
+def GRAPHICS_SPRITE_PALETTE_1 int() = 0
+def GRAPHICS_SPRITE_PALETTE_1___DisplayName str() = Green
+def GRAPHICS_SPRITE_PALETTE_1___Extra int() = 0
+def GRAPHICS_SPRITE_PALETTE_1___ModelPath str() = res://castagne/assets/fighters/baston/model/BastonModel-Pal03.tscn
+def GRAPHICS_SPRITE_PALETTE_1___SpritePalettePath str() = res://castagne/assets/helpers/palette/Palettual01 - Copy.png
+def GRAPHICS_SPRITE_PALETTE_2 int() = 0
+def GRAPHICS_SPRITE_PALETTE_2___DisplayName str() = Yellow
+def GRAPHICS_SPRITE_PALETTE_2___Extra int() = 0
+def GRAPHICS_SPRITE_PALETTE_2___ModelPath str() = res://castagne/assets/fighters/baston/model/BastonModel-Pal04.tscn
+def GRAPHICS_SPRITE_PALETTE_2___SpritePalettePath str() = res://castagne/assets/helpers/palette/Palettual01 - Copy.png
+def GRAPHICS_SPRITE_PALETTE_5 int() = 0
+def GRAPHICS_SPRITE_PALETTE_5___Extra int() = 0
+def GRAPHICS_SPRITE_PALETTE_5___ModelPath str() = res://castagne/assets/fighters/baston/model/BastonModel.tscn
+def GRAPHICS_SPRITE_PALETTE_5___SpritePalettePath str() = res://castagne/assets/helpers/palette/mainpal.png
+def GRAPHICS_SpritePalette str() = res://castagne/assets/helpers/palette/PaletteManual01 - Copy.png
+def GRAPHICS_UseModel bool() = 0
+def GRAPHICS_UseSprites bool() = 1
+:Variables:
+## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.

@@ -4,5 +4,11 @@
 ## - Movement
 ## - Attack types
 ## etc.
+:Specs-Graphics:
+def GRAPHICS_SPRITE_PALETTE_0 int() = 0
+def GRAPHICS_SPRITE_PALETTE_0___Extra int() = 0
+def GRAPHICS_SPRITE_PALETTE_0___ModelPath str() = res://castagne/assets/fighters/baston/model/BastonModel.tscn
+def GRAPHICS_SPRITE_PALETTE_0___SpritePalettePath str() = res://castagne/assets/helpers/palette/Palette.png
+def GRAPHICS_Scale int() = 700
 :Variables:
 ## These variables are common to all characters since it's in the skeleton.
