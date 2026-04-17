@@ -6,6 +6,14 @@ Skeleton: res://castagne/examples/fighters/baston/Baston-Model.casp
 def MOVE_Dashes_CanRun bool() = 1
 :Specs-Graphics:
 def GRAPHICS_AutomaticZOrder bool() = 1
+def GRAPHICS_SPRITESHEET_Crouch int() = 0
+def GRAPHICS_SPRITESHEET_Crouch___OriginX int() = 350
+def GRAPHICS_SPRITESHEET_Crouch___OriginY int() = 20
+def GRAPHICS_SPRITESHEET_Crouch___PaletteMode int() = 0
+def GRAPHICS_SPRITESHEET_Crouch___Path str() = res://fighters/Clawdia/crouch.png
+def GRAPHICS_SPRITESHEET_Crouch___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_Crouch___SpritesX int() = 4
+def GRAPHICS_SPRITESHEET_Crouch___SpritesY int() = 1
 def GRAPHICS_SPRITESHEET_RunStartStop int() = 0
 def GRAPHICS_SPRITESHEET_RunStartStop___OriginX int() = 350
 def GRAPHICS_SPRITESHEET_RunStartStop___OriginY int() = 0

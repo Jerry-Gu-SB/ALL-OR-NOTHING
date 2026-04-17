@@ -1,6 +1,6 @@
 
 # Godot-specific ignores
-.import
+*.import
 .md5
 .import/
 export.cfg
