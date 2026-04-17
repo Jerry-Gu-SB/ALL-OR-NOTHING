@@ -2,8 +2,18 @@
 ## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
 ## You can also add another file to this with the Skeleton: property.
 Skeleton: res://castagne/examples/fighters/baston/Baston-Model.casp
+:Specs-PhysicsMovement:
+def MOVE_Dashes_CanRun bool() = 1
 :Specs-Graphics:
 def GRAPHICS_AutomaticZOrder bool() = 1
+def GRAPHICS_SPRITESHEET_RunStartStop int() = 0
+def GRAPHICS_SPRITESHEET_RunStartStop___OriginX int() = 350
+def GRAPHICS_SPRITESHEET_RunStartStop___OriginY int() = 0
+def GRAPHICS_SPRITESHEET_RunStartStop___PaletteMode int() = 1
+def GRAPHICS_SPRITESHEET_RunStartStop___Path str() = res://fighters/Clawdia/run_start_stop.png
+def GRAPHICS_SPRITESHEET_RunStartStop___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_RunStartStop___SpritesX int() = 2
+def GRAPHICS_SPRITESHEET_RunStartStop___SpritesY int() = 1
 def GRAPHICS_SPRITESHEET_Stand int() = 0
 def GRAPHICS_SPRITESHEET_Stand___OriginX int() = 235
 def GRAPHICS_SPRITESHEET_Stand___OriginY int() = 39
@@ -34,5 +44,36 @@ def GRAPHICS_SPRITE_PALETTE_5___SpritePalettePath str() = res://castagne/assets/
 def GRAPHICS_SpritePalette str() = res://castagne/assets/helpers/palette/PaletteManual01 - Copy.png
 def GRAPHICS_UseModel bool() = 0
 def GRAPHICS_UseSprites bool() = 1
+:Specs-Anims:
+# Automatic creation
 :Variables:
 ## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
+:AnimRunStart:
+#Overriden from AnimRunStart
+# CallParent() allows you to extend the overriden state by adding your behavior.
+# Remove it to replace the default behavior with yours instead
+S3:
+	Sprite(RunStartStop, 1)
+S3
+	Sprite(RunStartStop, 0)
+endif
+:AnimRunStop:
+#Overriden from AnimRunStop
+# CallParent() allows you to extend the overriden state by adding your behavior.
+# Remove it to replace the default behavior with yours instead
+
+S3:
+	Sprite(RunStartStop, 0)
+S3
+	Sprite(RunStartStop, 1)
+endif
+:AnimStand:
+#Overriden from AnimStand
+# CallParent() allows you to extend the overriden state by adding your behavior.
+# Remove it to replace the default behavior with yours instead
+
+S30%:
+	Sprite(Stand, 0)
+S30
+	Sprite(Stand, 1)
+endif
