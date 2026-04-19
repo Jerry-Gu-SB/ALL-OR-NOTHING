@@ -12,3 +12,35 @@ def GRAPHICS_SPRITE_PALETTE_0___SpritePalettePath str() = res://castagne/assets/
 def GRAPHICS_Scale int() = 700
 :Variables:
 ## These variables are common to all characters since it's in the skeleton.
+:Crouching:
+## Basic crouching neutral state. Can transition to crawling if enabled.
+_Category(Movement/Basic/Crouching)
+_StateFlag(Grounded)
+
+Call(CrouchingNeutralState)
+FlagNext(Crouching)
+
+LIdleAnimOverride_Crouching:
+	Sub(_AttackAnimInterruptableFrames, 1)
+	AnimProgress()
+	V_AttackAnimInterruptableFrames>0:
+		FlagNext(IdleAnimOverride_Crouching)
+	endif
+else
+	Call(AnimCrouching)
+endif
+
+Call(Grounded_StartJumpHelper)
+Call(Grounded_StartDashHelper)
+
+IDown:
+	IForward:
+		Call(Crouching_CrawlFHelper)
+	else
+		IBack:
+			Call(Crouching_TurnaroundHelper)
+		endif
+	endif
+else
+	Call(Crouching_ToStandHelper)
+endif
