@@ -42,6 +42,14 @@ def GRAPHICS_SPRITESHEET_Crouch___Path str() = res://fighters/Clawdia/crouch.png
 def GRAPHICS_SPRITESHEET_Crouch___PixelSize int() = 100010
 def GRAPHICS_SPRITESHEET_Crouch___SpritesX int() = 4
 def GRAPHICS_SPRITESHEET_Crouch___SpritesY int() = 1
+def GRAPHICS_SPRITESHEET_HitStanding int() = 0
+def GRAPHICS_SPRITESHEET_HitStanding___OriginX int() = 240
+def GRAPHICS_SPRITESHEET_HitStanding___OriginY int() = 30
+def GRAPHICS_SPRITESHEET_HitStanding___PaletteMode int() = 1
+def GRAPHICS_SPRITESHEET_HitStanding___Path str() = res://fighters/Clawdia/hit_standing.png
+def GRAPHICS_SPRITESHEET_HitStanding___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_HitStanding___SpritesX int() = 3
+def GRAPHICS_SPRITESHEET_HitStanding___SpritesY int() = 1
 def GRAPHICS_SPRITESHEET_JumpFull int() = 0
 def GRAPHICS_SPRITESHEET_JumpFull___OriginX int() = 274
 def GRAPHICS_SPRITESHEET_JumpFull___OriginY int() = 36
@@ -863,6 +871,157 @@ def GRAPHICS_SPRITE_ANIMATIONS_Crouch___8_Spritesheet str() =
 def GRAPHICS_SPRITE_ANIMATIONS_Crouch___9_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Crouch___9_Frame int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Crouch___9_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___10_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___10_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___10_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___11_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___11_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___11_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___12_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___12_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___12_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___13_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___13_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___13_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___14_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___14_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___14_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___15_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___15_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___15_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___16_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___16_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___16_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___17_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___17_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___17_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___18_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___18_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___18_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___19_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___19_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___19_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___1_Duration int() = 2
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___1_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___1_Spritesheet str() = HitStanding
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___20_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___20_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___20_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___21_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___21_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___21_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___22_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___22_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___22_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___23_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___23_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___23_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___24_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___24_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___24_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___25_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___25_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___25_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___26_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___26_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___26_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___27_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___27_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___27_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___28_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___28_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___28_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___29_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___29_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___29_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___2_Duration int() = 2
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___2_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___2_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___30_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___30_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___30_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___31_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___31_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___31_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___32_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___32_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___32_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___33_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___33_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___33_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___34_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___34_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___34_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___35_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___35_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___35_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___36_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___36_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___36_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___37_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___37_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___37_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___38_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___38_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___38_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___39_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___39_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___39_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___3_Duration int() = 2
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___3_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___3_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___40_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___40_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___40_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___41_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___41_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___41_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___42_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___42_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___42_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___43_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___43_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___43_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___44_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___44_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___44_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___45_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___45_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___45_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___46_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___46_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___46_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___47_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___47_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___47_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___48_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___48_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___48_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___49_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___49_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___49_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___4_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___4_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___4_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___50_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___50_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___50_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___5_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___5_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___5_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___6_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___6_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___6_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___7_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___7_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___7_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___8_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___8_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___8_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___9_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___9_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_H-HitstunStand___9_Spritesheet str() = 
 def GRAPHICS_SPRITE_ANIMATIONS_Jumpsquat int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Jumpsquat___10_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Jumpsquat___10_Frame int() = 0
@@ -1922,6 +2081,22 @@ def GRAPHICS_SPRITE_ANIMATIONS_Walkb___9_Frame int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Walkb___9_Spritesheet str() =
 :Variables:
 ## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
+:5L:
+# Simple medium attack template
+AttackRegister(Light)
+
+# Adjust parameters here
+AttackDamage(1000)
+AttackDuration(20)
+
+
+# Put your animation here
+Anim(5L)
+
+# Active frames and hitboxes
+F10-12:
+	Hitbox(0, 25000, 18000, 30000)
+endif
 :AnimRunStart:
 #Overriden from AnimRunStart
 # CallParent() allows you to extend the overriden state by adding your behavior.
