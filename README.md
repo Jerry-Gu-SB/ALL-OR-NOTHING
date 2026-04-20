@@ -2,13 +2,13 @@
 
 ## Credits:
 
-Director:
+### Director:
 - Taedaartist
 
-Art:
+### Art:
 - Taedaartist
 
-Programming:
+### Programming:
 - Jerry "SpiralBiscuit" Gu
 
 
