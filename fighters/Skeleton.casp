@@ -4,6 +4,8 @@
 ## - Movement
 ## - Attack types
 ## etc.
+:Specs-PhysicsTeching:
+
 :Specs-Graphics:
 def GRAPHICS_SPRITE_PALETTE_0 int() = 0
 def GRAPHICS_SPRITE_PALETTE_0___Extra int() = 0
