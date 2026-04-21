@@ -1,12 +1,13 @@
 {
-	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/Clawdia/Clawdida.casp, res://fighters/Clawdia/Clawdida.casp",
+	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/Clawdia/Clawdida.casp, res://fighters/Clawdia/Clawdida.casp, res://fighters/dante/.casp",
 	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
 	"EditorCharacterOrder": [
 		100,
 		200,
 		300,
-		400
+		400,
+		500
 	],
 	"GameTitle": "ALL OR NOTHING",
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
