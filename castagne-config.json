@@ -8,6 +8,7 @@
 		300,
 		400
 	],
+	"GameTitle": "ALL OR NOTHING",
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
 	"Skeletons": "res://fighters/Skeleton.casp"
 }
