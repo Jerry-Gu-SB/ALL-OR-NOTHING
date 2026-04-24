@@ -2,6 +2,9 @@
 ## This is the Character block, where you add some basic information about your character that can be accessed from outside, like their name or place on the select screen.
 ## You can also add another file to this with the Skeleton: property.
 Skeleton: res://castagne/examples/fighters/baston/Baston-Model.casp
+
+Name: CLAWDIA
+EditorName: CLAWDIA
 :Specs-PhysicsTeching:
 def ATTACK_Tech_Knockdown_Backward_MomentumX int() = -20
 def ATTACK_Tech_Knockdown_Forward_MomentumX int() = 20
@@ -2888,7 +2891,7 @@ Anim(5H)
 
 # Active frames and hitboxes
 F21-33:
-	Hitbox(300, 30000, 20000, 30000)
+	Hitbox(300, 30000, 18000, 30000)
 endif
 :5L:
 # Simple medium attack template

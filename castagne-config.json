@@ -1,14 +1,22 @@
 {
-	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/Clawdia/Clawdida.casp, res://fighters/Clawdia/Clawdida.casp",
+	"CharacterPaths": "res://castagne/examples/fighters/baston/Baston-25D.casp, res://castagne/examples/fighters/baston/Baston-2D.casp, res://fighters/Clawdia/Clawdida.casp",
 	"ConfigSkeleton": "res://castagne/helpers/genreskeletons/CC25DFighter.json",
 	"Editor-FirstTimeFlowDone": true,
 	"EditorCharacterOrder": [
-		100,
 		200,
 		300,
-		400
+		100
 	],
 	"GameTitle": "ALL OR NOTHING",
 	"Modules-core": "res://castagne/modules/core/CMCore.gd",
+	"MusicData": [
+		{
+			"Filepath": "res://sound/BGM/BGM_washed in blood.wav",
+			"LoopEnd": 0,
+			"LoopStart": 0,
+			"Name": "WASHED IN BLOOD",
+			"Volume": 0
+		}
+	],
 	"Skeletons": "res://fighters/Skeleton.casp"
 }
