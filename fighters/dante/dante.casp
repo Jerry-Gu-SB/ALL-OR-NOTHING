@@ -16,7 +16,7 @@ def GRAPHICS_UseSprites bool() = 1
 :Specs-Anims:
 def ANIMS_UseStandardAnims bool() = 1
 def ANIM_Movement_Basic_Stand str() = Stand
-def ANIM_Movement_Basic_Stand_Loop int() = 45
+def ANIM_Movement_Basic_Stand_Loop int() = 44
 def GRAPHICS_SPRITE_ANIMATIONS_Stand int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Stand___10_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_Stand___10_Frame int() = 0
