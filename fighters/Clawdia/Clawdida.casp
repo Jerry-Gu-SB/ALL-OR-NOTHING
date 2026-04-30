@@ -51,6 +51,14 @@ def GRAPHICS_SPRITESHEET_5L___Path str() = res://fighters/Clawdia/5L.png
 def GRAPHICS_SPRITESHEET_5L___PixelSize int() = 100000
 def GRAPHICS_SPRITESHEET_5L___SpritesX int() = 3
 def GRAPHICS_SPRITESHEET_5L___SpritesY int() = 1
+def GRAPHICS_SPRITESHEET_66H int() = 0
+def GRAPHICS_SPRITESHEET_66H___OriginX int() = 350
+def GRAPHICS_SPRITESHEET_66H___OriginY int() = 70
+def GRAPHICS_SPRITESHEET_66H___PaletteMode int() = 1
+def GRAPHICS_SPRITESHEET_66H___Path str() = res://fighters/Clawdia/66H.png
+def GRAPHICS_SPRITESHEET_66H___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_66H___SpritesX int() = 6
+def GRAPHICS_SPRITESHEET_66H___SpritesY int() = 1
 def GRAPHICS_SPRITESHEET_BlockstunCrouching int() = 0
 def GRAPHICS_SPRITESHEET_BlockstunCrouching___OriginX int() = 240
 def GRAPHICS_SPRITESHEET_BlockstunCrouching___OriginY int() = 70
@@ -785,6 +793,157 @@ def GRAPHICS_SPRITE_ANIMATIONS_5L___8_Spritesheet str() =
 def GRAPHICS_SPRITE_ANIMATIONS_5L___9_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_5L___9_Frame int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_5L___9_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___10_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___10_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___10_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___11_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___11_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___11_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___12_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___12_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___12_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___13_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___13_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___13_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___14_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___14_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___14_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___15_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___15_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___15_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___16_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___16_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___16_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___17_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___17_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___17_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___18_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___18_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___18_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___19_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___19_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___19_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___1_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___1_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___1_Spritesheet str() = 66H
+def GRAPHICS_SPRITE_ANIMATIONS_66H___20_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___20_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___20_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___21_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___21_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___21_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___22_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___22_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___22_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___23_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___23_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___23_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___24_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___24_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___24_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___25_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___25_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___25_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___26_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___26_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___26_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___27_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___27_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___27_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___28_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___28_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___28_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___29_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___29_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___29_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___2_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___2_Frame int() = 1
+def GRAPHICS_SPRITE_ANIMATIONS_66H___2_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___30_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___30_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___30_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___31_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___31_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___31_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___32_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___32_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___32_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___33_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___33_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___33_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___34_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___34_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___34_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___35_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___35_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___35_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___36_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___36_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___36_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___37_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___37_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___37_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___38_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___38_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___38_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___39_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___39_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___39_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___3_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___3_Frame int() = 2
+def GRAPHICS_SPRITE_ANIMATIONS_66H___3_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___40_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___40_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___40_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___41_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___41_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___41_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___42_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___42_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___42_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___43_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___43_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___43_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___44_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___44_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___44_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___45_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___45_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___45_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___46_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___46_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___46_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___47_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___47_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___47_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___48_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___48_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___48_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___49_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___49_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___49_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___4_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___4_Frame int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_66H___4_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___50_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___50_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___50_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___5_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___5_Frame int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___5_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___6_Duration int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_66H___6_Frame int() = 5
+def GRAPHICS_SPRITE_ANIMATIONS_66H___6_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___7_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___7_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___7_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___8_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___8_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___8_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_66H___9_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___9_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_66H___9_Spritesheet str() = 
 def GRAPHICS_SPRITE_ANIMATIONS_AirIdle int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_AirIdle___10_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_AirIdle___10_Frame int() = 0
@@ -3420,6 +3579,22 @@ Anim(5L)
 # Active frames and hitboxes
 F10-12:
 	Hitbox(0, 25000, 18000, 30000)
+endif
+:66H:
+# Simple medium attack template
+AttackRegister(Heavy, 66H)
+
+# Adjust parameters here
+AttackDamage(5000)
+AttackDuration(20)
+
+
+# Put your animation here
+Anim(66H)
+
+# Active frames and hitboxes
+F9-12:
+	Hitbox(0, 15000, 5000, 15000)
 endif
 :AnimRunStart:
 #Overriden from AnimRunStart
