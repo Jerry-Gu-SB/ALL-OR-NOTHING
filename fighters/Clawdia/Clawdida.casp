@@ -139,6 +139,14 @@ def GRAPHICS_SPRITESHEET_j5H___Path str() = res://fighters/Clawdia/jump heavy.pn
 def GRAPHICS_SPRITESHEET_j5H___PixelSize int() = 100000
 def GRAPHICS_SPRITESHEET_j5H___SpritesX int() = 7
 def GRAPHICS_SPRITESHEET_j5H___SpritesY int() = 1
+def GRAPHICS_SPRITESHEET_j5L int() = 0
+def GRAPHICS_SPRITESHEET_j5L___OriginX int() = 350
+def GRAPHICS_SPRITESHEET_j5L___OriginY int() = 90
+def GRAPHICS_SPRITESHEET_j5L___PaletteMode int() = 1
+def GRAPHICS_SPRITESHEET_j5L___Path str() = res://fighters/Clawdia/j5L.png
+def GRAPHICS_SPRITESHEET_j5L___PixelSize int() = 100000
+def GRAPHICS_SPRITESHEET_j5L___SpritesX int() = 5
+def GRAPHICS_SPRITESHEET_j5L___SpritesY int() = 1
 def GRAPHICS_SPRITE_PALETTE_0 int() = 0
 def GRAPHICS_SPRITE_PALETTE_0___DisplayName str() = Blue
 def GRAPHICS_SPRITE_PALETTE_0___Extra int() = 0
@@ -3192,7 +3200,158 @@ def GRAPHICS_SPRITE_ANIMATIONS_j5H___8_Frame int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_j5H___8_Spritesheet str() = 
 def GRAPHICS_SPRITE_ANIMATIONS_j5H___9_Duration int() = 0
 def GRAPHICS_SPRITE_ANIMATIONS_j5H___9_Frame int() = 0
-def GRAPHICS_SPRITE_ANIMATIONS_j5H___9_Spritesheet str() =
+def GRAPHICS_SPRITE_ANIMATIONS_j5H___9_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___10_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___10_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___10_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___11_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___11_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___11_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___12_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___12_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___12_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___13_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___13_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___13_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___14_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___14_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___14_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___15_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___15_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___15_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___16_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___16_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___16_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___17_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___17_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___17_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___18_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___18_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___18_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___19_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___19_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___19_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___1_Duration int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___1_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___1_Spritesheet str() = j5L
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___20_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___20_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___20_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___21_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___21_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___21_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___22_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___22_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___22_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___23_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___23_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___23_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___24_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___24_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___24_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___25_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___25_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___25_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___26_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___26_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___26_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___27_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___27_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___27_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___28_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___28_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___28_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___29_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___29_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___29_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___2_Duration int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___2_Frame int() = 1
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___2_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___30_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___30_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___30_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___31_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___31_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___31_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___32_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___32_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___32_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___33_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___33_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___33_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___34_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___34_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___34_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___35_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___35_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___35_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___36_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___36_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___36_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___37_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___37_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___37_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___38_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___38_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___38_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___39_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___39_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___39_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___3_Duration int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___3_Frame int() = 2
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___3_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___40_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___40_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___40_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___41_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___41_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___41_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___42_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___42_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___42_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___43_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___43_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___43_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___44_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___44_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___44_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___45_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___45_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___45_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___46_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___46_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___46_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___47_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___47_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___47_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___48_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___48_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___48_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___49_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___49_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___49_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___4_Duration int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___4_Frame int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___4_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___50_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___50_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___50_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___5_Duration int() = 3
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___5_Frame int() = 4
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___5_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___6_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___6_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___6_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___7_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___7_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___7_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___8_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___8_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___8_Spritesheet str() = 
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___9_Duration int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___9_Frame int() = 0
+def GRAPHICS_SPRITE_ANIMATIONS_j5L___9_Spritesheet str() =
 :Variables:
 ## This is the Variables block, where you can store custom variables or overwrite defined ones.You can see all available default variables by activating 'Show All Variables' in the navigation panel.
 :2H:
@@ -3305,4 +3464,29 @@ ELanding:
 	LAttackHasWhiffed:
 		TransitionToFrame(Knockdown, 21, 1000000, True)
 	endif
+endif
+:j5L:
+AttackRegister(AirLight, j5L)
+
+# Adjust parameters here
+
+AttackDuration(15)
+
+AttackFlag(Overhead)
+
+# Put your animation here
+Anim(j5L)
+
+# Active frames and hitboxes
+
+F7-10:
+	AttackDamage(6000)
+	AttackMomentumHit(1000, 0, 0, -8000)
+	AttackKnockdown()
+	Hitbox(0, 15000, -5000, 15000)
+	
+	AttackDamage(2000)
+	AttackMomentumHit(1000, 0, 2000, -8000)
+	AttackKnockdown()
+	Hitbox(10000, 20000, 5000, 35000)
 endif
