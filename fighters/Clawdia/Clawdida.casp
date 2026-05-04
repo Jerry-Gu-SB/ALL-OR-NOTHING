@@ -3993,10 +3993,10 @@ AttackDuration(36)
 
 # Put your animation here
 Anim(214H)
-AddMomentum(-100, 200)
+AddMomentum(125)
 # Active frames and hitboxes
-F10-12:
-	Hitbox(0, 15000, 5000, 15000)
+F8-28:
+	Hitbox(0, 20000, 15000, 25000)
 endif
 :2H:
 # Simple medium attack template
